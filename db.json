@@ -1,0 +1,34 @@
+{
+  "cliente": [
+    {
+      "id": 1,
+      "nome": "Rodrigo",
+      "cpf": "23043626800"
+    },
+    {
+      "id": 3,
+      "nome": "João",
+      "cpf": ""
+    }
+  ],
+  "produto": [
+    {
+      "nome": "Iphone",
+      "code": "12",
+      "type": "Smartphone",
+      "id": 2
+    },
+    {
+      "nome": "Iphone",
+      "code": "12",
+      "type": "Smartphone",
+      "id": 3
+    },
+    {
+      "nome": "Iphone",
+      "code": "12",
+      "type": "Smartphone",
+      "id": 4
+    }
+  ]
+}

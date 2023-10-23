@@ -1,0 +1,26 @@
+<mat-selection-list>
+    <a mat-list-item *ngFor="let cliente of listaClientes">
+        <span (click)="selecionar(cliente)">{{cliente.nome}}</span>
+      <span cursor="pointer" (click)="remover(cliente.id)">
+      <mat-icon>delete</mat-icon>
+    </span>
+    </a>
+</mat-selection-list>
+
+<div>
+    <mat-form-field>
+        <mat-label>Nome</mat-label>
+        <input matInput type="text" [(ngModel)]="cliente.nome">
+    </mat-form-field>
+
+    <br><br>
+    <mat-form-field>
+        <mat-label>CPF</mat-label>
+        <input matInput type="text" [(ngModel)]="cliente.cpf">
+    </mat-form-field>
+    <br><br>
+    <button mat-raised-button (click)="cancelar()"> Cancelar </button>
+    <button mat-raised-button (click)="salvar()"> Salvar </button>
+</div>
+
+    
